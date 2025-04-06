@@ -40,16 +40,23 @@ This setup is lightweight, flexible, and ready to scale. Whether you're building
 ```bash
 git clone https://github.com/nikhilhuh/Hackathon-App.git
 cd Hackathon-App
+```
 
 ### 2. Install dependencies
+
+```bash
 npm install
 # or
 yarn install
+```
 
 ### 3. Start the dev server
+
+```bash
 npm run dev
 # or
 yarn dev
+```
 
 Visit http://localhost:5173 in your browser.
 
