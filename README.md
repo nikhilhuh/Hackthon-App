@@ -1,34 +1,45 @@
-# ⚡️ React + TypeScript + Tailwind CSS v4 Boilerplate
+# ⚡️ Fullstack Boilerplate — React + TypeScript + Tailwind CSS v4 + Express
 
-A modern boilerplate project to kickstart your **Hackathon** or **web app** development using:
+A modern fullstack boilerplate to kickstart your **Hackathon**, **Web App**, or **MVP** development using:
 
-- ⚛️ React (via Vite)
+- ⚛️ React (with Vite)
 - 💙 TypeScript
 - 🎨 Tailwind CSS v4
+- 🚀 Express (Node.js backend)
 
-This setup is lightweight, flexible, and ready to scale. Whether you're building a Hackathon project or starting a personal web app — this is your clean slate.
+This setup is lightweight, clean, and ready to scale — perfect for both frontend and backend development.
 
 ---
 
 ## 🧰 Tech Stack
 
+### Frontend
 - **React** – For building user interfaces
 - **TypeScript** – Type-safe development
-- **Tailwind CSS v4** – Fast, utility-first CSS framework
-- **React Router DOM** – For page routing
-- **Vite** – Lightning-fast development server and build tool
+- **Tailwind CSS v4** – Utility-first CSS framework
+- **React Router DOM** – Page routing
+- **Vite** – Lightning-fast dev server and build tool
+
+### Backend
+- **Express.js** – Minimal and flexible Node.js web application framework
+- **TypeScript** – Backend written in TS too!
+- **CORS** – Cross-origin resource sharing
+- **Dotenv** – Environment variable management
+- **Nodemon** – Auto-restart backend on changes (for smooth development)
 
 ---
 
 ## ✨ Features
 
 - 🔹 Minimal and clean folder structure
-- 🔹 React Router setup with routes file
-- 🔹 Layout component for consistent page structure
-- 🔹 Reusable Navbar and Footer components
-- 🔹 Separate pages like `Home` and `Error404`
-- 🔹 Organized assets, styles, and component files
-- 🔹 Ideal starting point for any frontend project
+- 🔹 React Router setup with dynamic routing
+- 🔹 Shared layout for consistent UI
+- 🔹 Reusable components like Navbar and Footer
+- 🔹 Ready-to-use `Home` and `Error404` pages
+- 🔹 Organized structure for assets, routes, styles, and components
+- 🔹 Boilerplate backend setup using Express & TypeScript
+- 🔹 Nodemon-powered backend dev workflow
+- 🔹 Perfect starting point for fullstack apps
 
 ---
 
@@ -42,15 +53,16 @@ git clone https://github.com/nikhilhuh/Hackathon-App.git
 cd Hackathon-App
 ```
 
-### 2. Install dependencies
+### 2. Install frontend dependencies
 
 ```bash
+cd frontend
 npm install
 # or
 yarn install
 ```
 
-### 3. Start the dev server
+### 3. Start the frontend dev server
 
 ```bash
 npm run dev
@@ -58,7 +70,26 @@ npm run dev
 yarn dev
 ```
 
-Visit http://localhost:5173 in your browser.
+Frontend runs on: http://localhost:5173
+
+### 4. Install backend dependencies
+
+```bash
+cd backend
+npm install
+# or
+yarn install
+```
+
+### 5. Start the backend dev server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Backend runs on: http://localhost:5000 (or your custom port in .env)
 
 
 ## 👨‍💻 Author
