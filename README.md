@@ -31,15 +31,15 @@ This setup is lightweight, clean, and ready to scale — perfect for both fronte
 
 ## ✨ Features
 
-- 🔹 Minimal and clean folder structure
-- 🔹 React Router setup with dynamic routing
-- 🔹 Shared layout for consistent UI
-- 🔹 Reusable components like Navbar and Footer
-- 🔹 Ready-to-use `Home` and `Error404` pages
-- 🔹 Organized structure for assets, routes, styles, and components
-- 🔹 Boilerplate backend setup using Express & TypeScript
-- 🔹 Nodemon-powered backend dev workflow
-- 🔹 Perfect starting point for fullstack apps
+- Minimal and clean folder structure
+- React Router setup with dynamic routing
+- Shared layout for consistent UI
+- Reusable components like Navbar and Footer
+- Ready-to-use `Home` and `Error404` pages
+- Organized structure for assets, routes, styles, and components
+- Boilerplate backend setup using Express & TypeScript
+- Nodemon-powered backend dev workflow
+- Perfect starting point for fullstack apps
 
 ---
 
@@ -75,6 +75,7 @@ Frontend runs on: http://localhost:5173
 ### 4. Install backend dependencies
 
 ```bash
+cd..
 cd backend
 npm install
 # or
