@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Underdog&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* your primary background color */
+  --color-primary: #1e40af;
+  /* you secondary background color */
+  --color-secondary: #9333ea;
+  /* your primary background color for darkmode*/
+  --color-darkprimary: #303030;
+  /* you secondary background color for darkmode*/
+  --color-darksecondary: #1e1b1b;
+  
+  /* your fonts (imported from google fonts) */
+  --font-underdog: Underdog, sans-serif;
+  --font-dancing: "Dancing Script", sans-serif;
+  --font-anton: "Anton", sans-serif;
+}
