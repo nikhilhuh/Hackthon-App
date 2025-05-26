@@ -1,5 +1,4 @@
 import express, { Request, Response } from "express";
-import cors from "cors";
 import { demoModel } from "../models/dbmodels/demoModel";
 const router = express.Router();
 

@@ -1,13 +1,15 @@
-# ⚡️ Fullstack Boilerplate — React + TypeScript + Tailwind CSS v4 + Express
+# ⚡️ MERN STACK Boilerplate — React + Tailwind CSS v4 + Express + Socket + Mongoose + Typescript(frontend + backend)
 
-A modern fullstack boilerplate to kickstart your **Hackathon**, **Web App**, or **MVP** development using:
+A modern MERN stack boilerplate to kickstart your **Web App** development using:
 
 - ⚛️ React (with Vite)
-- 💙 TypeScript
 - 🎨 Tailwind CSS v4
 - 🚀 Express (Node.js backend)
+- 🔌 Socket.io
+- 🍃 MongoDB (via Mongoose) 
+- 💙 TypeScript (backend + frontend)
 
-This setup is lightweight, clean, and ready to scale — perfect for both frontend and backend development.
+This setup is lightweight, modular, and scalable — ideal for both frontend and backend development with real-time communication support.
 
 ---
 
@@ -24,6 +26,8 @@ This setup is lightweight, clean, and ready to scale — perfect for both fronte
 - **Express.js** – Minimal and flexible Node.js web application framework
 - **TypeScript** – Backend written in TS too!
 - **CORS** – Cross-origin resource sharing
+- **MongoDB** - NoSQL database (via Mongoose)
+- **Socket.io** - Real-time WebSocket communication
 - **Dotenv** – Environment variable management
 - **Nodemon** – Auto-restart backend on changes (for smooth development)
 
@@ -31,15 +35,15 @@ This setup is lightweight, clean, and ready to scale — perfect for both fronte
 
 ## ✨ Features
 
-- Minimal and clean folder structure
-- React Router setup with dynamic routing
-- Shared layout for consistent UI
-- Reusable components like Navbar and Footer
-- Ready-to-use `Home` and `Error404` pages
-- Organized structure for assets, routes, styles, and components
-- Boilerplate backend setup using Express & TypeScript
-- Nodemon-powered backend dev workflow
-- Perfect starting point for fullstack apps
+- Clean & modular codebase
+- MongoDB integration with async/await and models
+- WebSocket support with Socket.io setup
+- Backend structured with app.ts, server.ts, socketSetup.ts
+- Nodemon for auto-reloading backend server
+- React + Tailwind + TypeScript + Vite scaffolded frontend
+- Error pages, shared layout, routing & reusable components
+- Environment variables managed via .env file
+
 
 ---
 
@@ -49,8 +53,8 @@ This setup is lightweight, clean, and ready to scale — perfect for both fronte
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/nikhilhuh/Hackathon-App.git
-cd Hackathon-App
+git clone https://github.com/nikhilhuh/MERN-STACK-BOILER-PLATE-APP.git
+cd MERN-STACK-BOILER-PLATE-APP
 ```
 
 ### 2. Install frontend dependencies
@@ -90,7 +94,7 @@ npm run dev
 yarn dev
 ```
 
-Backend runs on: http://localhost:5000 (or your custom port in .env)
+Backend runs on: http://localhost:4000 (or your custom port in .env)
 
 
 ## 👨‍💻 Author
