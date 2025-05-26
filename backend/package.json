@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.ts",
-    "build": "tsc && mkdir -p dist/data && cp src/data/words.txt dist/data/",
+    "build": "tsc",
     "start": "node dist/server.js"
   },
   "keywords": [],
@@ -14,8 +14,9 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.15.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
